@@ -1,4 +1,4 @@
-import 'package:cinemasite/presentation/screens.dart';
+import 'package:cinemasite/presentation/screens/screens.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(initialLocation: '/', routes: [
