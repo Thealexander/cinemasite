@@ -6,6 +6,7 @@ import 'package:cinemasite/presentation/providers/providers.dart';
 
 class MovieScreen extends ConsumerStatefulWidget {
   static const name = 'movie-screen';
+
   final String movieId;
 
   const MovieScreen({super.key, required this.movieId});
@@ -49,6 +50,7 @@ class MovieScreenState extends ConsumerState<MovieScreen> {
 
 class _MovieDetails extends StatelessWidget {
   final Movie movie;
+
   const _MovieDetails({required this.movie});
 
   @override
@@ -89,6 +91,7 @@ class _MovieDetails extends StatelessWidget {
             ],
           ),
         ),
+
         // Generos de la película
         Padding(
           padding: const EdgeInsets.all(8),
